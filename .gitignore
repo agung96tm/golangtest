@@ -1,0 +1,6 @@
+# editor
+.idea/
+
+# build
+*.exe
+dist/
