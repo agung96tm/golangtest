@@ -5,5 +5,5 @@ CREATE TABLE IF NOT EXISTS users (
     password varchar(100) NOT NULL,
     role_id int,
     role_name varchar(200),
-    last_access timestamp(0) with time zone NOT NULL DEFAULT NOW(),
+    last_access timestamp(0) with time zone NOT NULL DEFAULT NOW()
 );
